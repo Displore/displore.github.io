@@ -1,0 +1,4 @@
+site_name: Displore documentation
+theme: journal
+docs_dir: ../docs
+site_dir: docs
