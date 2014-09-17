@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../img/favicon.ico">
 
-        <title>Changelog - Displore documentation</title>
+        <title>Roadmap - Displore documentation</title>
 
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -50,8 +50,8 @@
             <ul class="nav navbar-nav">
             
             
-                <li class="active">
-                    <a href="./">Changelog</a>
+                <li >
+                    <a href="../changelog/">Changelog</a>
                 </li>
             
             
@@ -62,8 +62,8 @@
             
             
             
-                <li >
-                    <a href="../roadmap/">Roadmap</a>
+                <li class="active">
+                    <a href="./">Roadmap</a>
                 </li>
             
             
@@ -73,12 +73,12 @@
             <ul class="nav navbar-nav navbar-right">
                 
                 <li >
-                    <a rel="next" href="..">
+                    <a rel="next" href="../contributing/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
-                <li >
-                    <a rel="prev" href="../contributing/">
+                <li class="disabled">
+                    <a rel="prev" >
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -92,11 +92,11 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#changelog">Changelog</a></li>
-        
-            <li><a href="#displore">Displore</a></li>
+        <li class="main active"><a href="#roadmap">Roadmap</a></li>
         
             <li><a href="#core">Core</a></li>
+        
+            <li><a href="#displore">Displore</a></li>
         
             <li><a href="#journal">Journal</a></li>
         
@@ -105,20 +105,68 @@
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="changelog">Changelog</h1>
-<p>The philosophy behind the version numbers is that of <a href="http://semver.org/">SemVer</a>, which means the versions are in the Major.Minor.Patch format.
-A few highlights from the SemVer specification:</p>
+<h1 id="roadmap">Roadmap</h1>
+<p>The intention is for stable releases to follow a <em>continuous release model</em>. As soon as a functionality is tested and reviewed, it can be released. Features that could cause to backwards-incompatibilities will remain on hold and be released at most twice a year, after a new release of Laravel.</p>
+<h2 id="core">Core</h2>
+<h3 id="version-01">Version 0.1</h3>
+<p><em>Expected release: December 2014</em></p>
+<p>Unstable and not ready for production, everything could change at any time.</p>
+<p>Development of:</p>
 <ul>
-<li>Major version zero (0.y.z) is for initial development. Anything may change at any time. The public API should not be considered stable.</li>
-<li>Bug fixes not affecting the API increment the patch version, backwards compatible API additions/changes increment the minor version, and backwards incompatible API changes increment the major version.</li>
-<li>Once a versioned package has been released, the contents of that version must not be modified. Any modifications must be released as a new version.</li>
+<li>User management with native driver</li>
+<li>Entity classes and repositories</li>
+<li>Basic admin backend</li>
+</ul>
+<h3 id="version-02">Version 0.2</h3>
+<p><em>Expected release: February 2015</em></p>
+<p>Unstable and not ready for production, everything could change at any time.</p>
+<p>Development of:</p>
+<ul>
+<li>User management with Sentry driver and Confide/Entrust driver</li>
+<li>Plugins and widgets</li>
+<li>Creating 'regular' pages</li>
+</ul>
+<h3 id="version-10">Version 1.0</h3>
+<p><em>Expected release: May 2015</em></p>
+<p>First stable release.</p>
+<ul>
+<li>Implementation of possible new Laravel features</li>
+<li>Better admin backend</li>
+<li>Language files</li>
 </ul>
 <h2 id="displore">Displore</h2>
-<p>No version released yet.</p>
-<h2 id="core">Core</h2>
-<p>No version released yet.</p>
+<h3 id="version-01_1">Version 0.1</h3>
+<p><em>Expected release: December 2014</em></p>
+<p>Unstable and not ready for production, everything could change at any time.</p>
+<p>Development of:</p>
+<ul>
+<li>Basic functions such as boards, categories, threads, posts.</li>
+<li>Themes and layouts</li>
+<li>Implementation of Core</li>
+</ul>
+<h3 id="version-02_1">Version 0.2</h3>
+<p><em>Expected release: February 2015</em></p>
+<p>Unstable and not ready for production, everything could change at any time.</p>
+<p>Development of:</p>
+<ul>
+<li>Implementation of plugins and pages</li>
+<li>Forum statistics</li>
+<li>Moderation abilities and logging</li>
+<li>Basic user profile pages</li>
+<li>BBcode and emoticons</li>
+</ul>
+<h3 id="version-10_1">Version 1.0</h3>
+<p><em>Expected release: May 2015</em></p>
+<p>First stable release.</p>
+<ul>
+<li>Implementation of possible new Laravel features</li>
+<li>Better user profile pages</li>
+<li>Language files</li>
+<li>Private boards</li>
+<li>Starting threads as announcements/sticky posts</li>
+</ul>
 <h2 id="journal">Journal</h2>
-<p>No version released yet.</p>
+<p>Development will start after first stable release of Displore.</p>
 </div>
         </div>
 
